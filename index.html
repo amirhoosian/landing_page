@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav class="flex justify-between items-center py-8 px-16">
+        <a
+          href=""
+          class="flex items-center text-mideum-size bg-blue-coustom-color"
+          >Quick <span class="text-green-500">Pik</span></a
+        >
+        <div class="flex items-center">
+          <ul class="flex items-center list-none custom-gap-26 menu-item">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Products</li>
+            <li>Services</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+        <div class="flex items-center gap-26">
+          <button
+            type="submit"
+            class="bg-green-500 padding-y-10 px-9 border-reduced-10 font-size-20 text-slate-100"
+          >
+            ShopNow
+          </button>
+          <img src="./public/shop_card.svg" alt="shop" srcset="" />
+          <img src="./public/profile_icon.svg" alt="profile" srcset="" />
+        </div>
+      </nav>
+      <div class="flex justify-around items-center py-2 px-24 bg-slate-100">
+        <button
+          class="flex items-center gap-1 py-2 px-5 bg-white rounded-full cursor-pointer"
+          type="submit"
+        >
+          <img src="./public/drower.svg" alt="drower" srcset="" />
+          All Categories
+        </button>
+        <input
+          class="flex-1 h-12 rounded-45 border-2 border-slate-100 bg-white py-3.5 px-4 bg-blue-coustom-color placeholder:text-slate-800"
+          placeholder="What are you looking for?"
+          type="search"
+          name="search"
+          id="serach"
+        />
+        <div
+          class="flex items-center w-14 h-12 bg-green-500 rounded-r-45 justify-center"
+        >
+          <img src="./public/search.svg" alt="search" srcset="" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="flex items-center px-16 justify-between">
+        <div class="flex flex-col gap-10 py-16">
+          <div
+            class="flex items-center bg-clolor-white-coustom-color py-2.5 px-4 width-405 rounded-30"
+          >
+            <p class="text-base text_darkـblue_color">30% Off on groceries</p>
+          </div>
+          <div class="width-515">
+            <h3 class="text_darkـblue_color text-7xl font-with-500">
+              Shop smarter, not harder.
+            </h3>
+            <h2 class="text-7xl red_color font-with-500">Get it ordered.</h2>
+            <p class="text-black text-xl font-with-300">
+              Save time, skip the lines. We've got you covered.
+            </p>
+          </div>
+          <button
+            type="submit"
+            class="py-2.5 px-33-5 bg-green-500 w-154 rounded-10 text-white text-20 font-with-700"
+          >
+            ShopNow
+          </button>
+        </div>
+        <div class="flex flex-col gap-10 w-665 shop-img-product">
+          <img
+            class="w-596"
+            src="./public/smiling_young_caucasian_girl_with_pixie_haircut_standing_profile.png"
+            alt="shop_img"
+            srcset=""
+          />
+          <div
+            class="flex w-439 h-24 rounded-2xl bg-white-coustom-color gap-5 py-4 px-5 card_shop"
+          >
+            <img src="./public/profile-card.png" alt="" />
+            <div class="flex flex-col">
+              <h2 class="text-black text-base font-medium">Ashely Daniels</h2>
+              <p class="text-smoke-gray text-base font-medium">
+                "Saved me tons of time - never going back to grocery shopping!"
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center items-center mt-11 relative main-title">
+        <p class="text-gray-coustom-color text-20 font-semibold relative">
+          Trending Products
+          <img class="text-sub-img" src="./public/Ellipse 9.svg" alt="" />
+        </p>
+      </div>
+      <div class="flex justify-around px-40 mt-14">
+        <div class="flex flex-col items-center gap-2">
+          <img src="./public/Frame 27.svg" alt="" />
+          <h3 class="h3-img">Grocery</h3>
+        </div>
+        <div class="flex flex-col items-center gap-2">
+          <img src="./public/Frame 28.svg" alt="" />
+          <h3 class="h3-img">Shoes</h3>
+        </div>
+        <div class="flex flex-col items-center gap-2">
+          <img src="./public/Frame 29.svg" alt="" />
+          <h3 class="h3-img">Phones</h3>
+        </div>
+        <div class="flex flex-col items-center gap-2">
+          <img src="./public/Frame 30.svg" alt="" />
+          <h3 class="h3-img">Google Home</h3>
+        </div>
+        <div class="flex flex-col items-center gap-2">
+          <img src="./public/Frame 31.svg" alt="" />
+          <h3 class="h3-img">Alarm Clocks</h3>
+        </div>
+      </div>
+      <div class="flex items-center justify-center mt-119 gap-6">
+        <h2 class="title-timer">Deal Of The Week</h2>
+        <div class="flex justify-between gap-2">
+          <div class="time-box">
+            <p>10</p>
+            <p>Days</p>
+          </div>
+          <div class="time-box">
+            <p>19</p>
+            <p>Hours</p>
+          </div>
+          <div class="time-box">
+            <p>59</p>
+            <p>Minutes</p>
+          </div>
+          <div class="time-box">
+            <p>57</p>
+            <p>Seconds</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center gap-6 mt-10">
+        <div class="flex card_shop_box">
+          <img src="./public/Link-product42.svg" alt="linkProduct" />
+          <div class="flex flex-col gap-3.5 py-12 px-6">
+            <h1>Elegant Perfumes</h1>
+            <h2>$16.00</h2>
+            <ul class="custom-list">
+              <li>Long Lasting</li>
+              <li>Affordable price</li>
+              <li>Best Perfume</li>
+            </ul>
+            <button
+              class="bg-blue-200 text-blue-800 font-bold py-2.5 px-9 button flex items-center shadow-md"
+            >
+              <svg
+                class="w-5 h-5 mr-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 3h2l.4 2M7 13h10l4 8H6.4l-.4-2m4-2h10m-4-8h-10l-1 5h10l1-5z"
+                ></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+        <div class="flex card_shop_box">
+          <img src="./public/Link-product42.svg" alt="linkProduct" />
+          <div class="flex flex-col gap-3.5 py-12 px-6">
+            <h1>Elegant Perfumes</h1>
+            <h2>$16.00</h2>
+            <ul class="custom-list">
+              <li>Long Lasting</li>
+              <li>Affordable price</li>
+              <li>Best Perfume</li>
+            </ul>
+            <button
+              class="bg-blue-200 text-blue-800 font-bold py-2.5 px-9 button flex items-center shadow-md"
+            >
+              <svg
+                class="w-5 h-5 mr-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 3h2l.4 2M7 13h10l4 8H6.4l-.4-2m4-2h10m-4-8h-10l-1 5h10l1-5z"
+                ></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

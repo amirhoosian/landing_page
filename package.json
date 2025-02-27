@@ -1,0 +1,19 @@
+{
+  "name": "simplestore",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@fullstacksjs/eslint-config": "^11.5.0",
+    "@tailwindcss/vite": "^4.0.6",
+    "eslint": "^9.20.1",
+    "prettier": "^3.5.0",
+    "tailwindcss": "^4.0.6",
+    "vite": "^6.1.0"
+  }
+}

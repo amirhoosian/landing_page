@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+@import "tailwindcss";
+
+@tailwind utilities;
+
+@theme {
+  --text-green-custom-color: #3cda5f;
+  --bg-green-custom-color: #3cda5f;
+  --color-black-coustom-color: #000000;
+  --text-mideum-size: 28px;
+  --gap-26: 26px;
+  --color-smoke-gray: #777676;
+}
+
+.custom-gap-26 {
+  gap: 26px;
+}
+
+.menu-item li {
+  padding: 10px;
+}
+
+.padding-y-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.border-reduced-10 {
+  border-radius: 10px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.rounded-45 {
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+}
+
+.rounded-r-45 {
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+}
+
+.bg-blue-coustom-color {
+  color: #184363;
+}
+
+.bg-clolor-white-coustom-color {
+  background-color: #edf4f6;
+}
+
+.width-405 {
+  width: 405px;
+}
+
+.rounded-30 {
+  border-radius: 30px;
+}
+
+.text_darkـblue_color {
+  color: rgba(10, 38, 64, 1);
+}
+
+.width-515 {
+  width: 515px;
+}
+
+.red_color {
+  color: #fd273b;
+}
+
+.font-with-300 {
+  font-weight: 300;
+}
+
+.px-33-5 {
+  padding-right: 33.5px;
+  padding-left: 33.5px;
+}
+
+.w-154 {
+  width: 154px;
+}
+
+.rounded-10 {
+  border-radius: 10px;
+}
+
+.text-20 {
+  font-size: 20px;
+}
+
+.font-with-700 {
+  font-weight: 700;
+}
+
+.font-with-500 {
+  font-weight: 500;
+}
+
+.w-665 {
+  width: 654.938px;
+}
+
+.w-439 {
+  width: 439px;
+}
+
+.bg-white-coustom-color {
+  background-color: #f8f8f8;
+}
+
+.shop-img-product {
+  position: relative;
+}
+.card_shop {
+  position: absolute;
+  left: 45px;
+  bottom: -50px;
+}
+
+.w-596 {
+  width: 596px;
+}
+
+.text-gray-coustom-color {
+  color: #0a2640;
+}
+
+.text-20 {
+  font-size: 20px;
+}
+
+.text-sub-img {
+  position: absolute;
+  right: -10px;
+  bottom: 0;
+}
+
+main-title img {
+  position: absolute;
+  right: -10px;
+  bottom: 0;
+  width: 27.119px;
+  height: 39.114px;
+  transform: rotate(-65.611deg);
+  flex-shrink: 0;
+}
+
+.h3-img {
+  color: #000;
+  font-feature-settings:
+    "liga" off,
+    "clig" off;
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.time-box {
+  display: flex;
+  width: 50px;
+  padding: 11px 13px 11px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #3cda5f;
+}
+
+.time-box p {
+  color: #fff;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 10px; /* 100% */
+}
+
+.mt-119 {
+  margin-top: 119px;
+}
+
+.title-timer {
+  color: #184363;
+  text-align: right;
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+
+.custom-list {
+  list-style: none; /* حذف علامت‌های پیش‌فرض لیست */
+  padding: 0;
+}
+
+.custom-list li {
+  position: relative;
+  padding-left: 25px; /* فاصله برای تیک */
+  margin-bottom: 10px; /* فاصله بین آیتم‌ها */
+}
+
+.custom-list li::before {
+  content: "✔"; /* تیک */
+  position: absolute;
+  left: 0;
+  color: green; /* رنگ تیک */
+}
+
+.card_shop_box {
+  width: 607.75px;
+  height: 304.88px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #eaeaea;
+}
+
+.button {
+  color: #184363;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+  border-radius: 72px;
+}
+.button svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  margin-right: 0.5rem;
+  fill: none;
+  stroke: currentColor;
+}
